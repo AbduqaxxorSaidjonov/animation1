@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		768E117627C3D3D4006F70A7 /* animationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E117527C3D3D4006F70A7 /* animationApp.swift */; };
-		768E117827C3D3D4006F70A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E117727C3D3D4006F70A7 /* ContentView.swift */; };
 		768E117A27C3D3D5006F70A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768E117927C3D3D5006F70A7 /* Assets.xcassets */; };
 		768E117D27C3D3D5006F70A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768E117C27C3D3D5006F70A7 /* Preview Assets.xcassets */; };
 		768E117F27C3D3D5006F70A7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E117E27C3D3D5006F70A7 /* Persistence.swift */; };
 		768E118227C3D3D5006F70A7 /* animation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 768E118027C3D3D5006F70A7 /* animation.xcdatamodeld */; };
+		768E118A27C3D410006F70A7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768E118927C3D410006F70A7 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		768E117227C3D3D4006F70A7 /* animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768E117527C3D3D4006F70A7 /* animationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationApp.swift; sourceTree = "<group>"; };
-		768E117727C3D3D4006F70A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		768E117927C3D3D5006F70A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768E117C27C3D3D5006F70A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		768E117E27C3D3D5006F70A7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		768E118127C3D3D5006F70A7 /* animation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = animation.xcdatamodel; sourceTree = "<group>"; };
+		768E118927C3D410006F70A7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,9 @@
 		768E117427C3D3D4006F70A7 /* animation */ = {
 			isa = PBXGroup;
 			children = (
+				768E118827C3D3F1006F70A7 /* apputils */,
 				768E117527C3D3D4006F70A7 /* animationApp.swift */,
-				768E117727C3D3D4006F70A7 /* ContentView.swift */,
-				768E117927C3D3D5006F70A7 /* Assets.xcassets */,
-				768E117E27C3D3D5006F70A7 /* Persistence.swift */,
-				768E118027C3D3D5006F70A7 /* animation.xcdatamodeld */,
+				768E118927C3D410006F70A7 /* HomeScreen.swift */,
 				768E117B27C3D3D5006F70A7 /* Preview Content */,
 			);
 			path = animation;
@@ -71,6 +69,16 @@
 				768E117C27C3D3D5006F70A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		768E118827C3D3F1006F70A7 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				768E118027C3D3D5006F70A7 /* animation.xcdatamodeld */,
+				768E117E27C3D3D5006F70A7 /* Persistence.swift */,
+				768E117927C3D3D5006F70A7 /* Assets.xcassets */,
+			);
+			path = apputils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				768E118A27C3D410006F70A7 /* HomeScreen.swift in Sources */,
 				768E117F27C3D3D5006F70A7 /* Persistence.swift in Sources */,
-				768E117827C3D3D4006F70A7 /* ContentView.swift in Sources */,
 				768E118227C3D3D5006F70A7 /* animation.xcdatamodeld in Sources */,
 				768E117627C3D3D4006F70A7 /* animationApp.swift in Sources */,
 			);
